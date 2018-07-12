@@ -6,9 +6,13 @@ class Dog
    @color = color
    @size = size
    @fur_type = fur_type
-    
+  end  
   end
   
   fido = Dog.new("brown", "small", "straight")
   snoopy = Dog.new("white", "miniture", "short")
   lassie = Dog.new("red", "large", "curly")
+  
+  puts fido.size
+  fido.set_size
+  puts fido.size
